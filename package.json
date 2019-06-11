@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HashimR/hacker-news-scraper/issues"
   },
-  "homepage": "https://github.com/HashimR/hacker-news-scraper#readme"
+  "homepage": "https://github.com/HashimR/hacker-news-scraper#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }

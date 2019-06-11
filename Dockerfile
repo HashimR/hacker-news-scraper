@@ -11,5 +11,5 @@ COPY index.js ./
 # Install dependencies
 RUN npm install
 
-# Start server
+# Start bash terminal
 ENTRYPOINT ["/bin/sh"]
