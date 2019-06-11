@@ -1,0 +1,20 @@
+{
+  "name": "hacker-news-scraper",
+  "version": "1.0.0",
+  "description": "Ensure [Docker](https://docs.docker.com/engine/installation/) is installed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashimR/hacker-news-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashimR/hacker-news-scraper/issues"
+  },
+  "homepage": "https://github.com/HashimR/hacker-news-scraper#readme"
+}
