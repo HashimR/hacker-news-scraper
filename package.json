@@ -2,7 +2,7 @@
   "name": "hacker-news-scraper",
   "version": "1.0.0",
   "description": "Ensure [Docker](https://docs.docker.com/engine/installation/) is installed.",
-  "main": "scraper.js",
+  "main": "hackernews.js",
   "scripts": {
     "test": "jest"
   },

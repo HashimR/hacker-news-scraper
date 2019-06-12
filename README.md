@@ -31,7 +31,7 @@ This will open bash in the container.
 Run the scraper by executing:
 
 ```
-$ node index.js --posts n
+$ node hackernews.js --posts n
 ```
 
 where n is an integer number of posts between 1-100.

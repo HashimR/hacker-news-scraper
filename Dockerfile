@@ -7,7 +7,7 @@ WORKDIR /var/app/hacker-news-scraper
 # Copy source files
 COPY package.json .
 COPY scraper.js ./
-COPY index.js ./
+COPY hackernews.js ./
 COPY scraper.test.js ./
 
 # Install dependencies
