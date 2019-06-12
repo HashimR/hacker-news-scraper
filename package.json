@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/HashimR/hacker-news-scraper#readme",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "osmosis": "^1.1.10",
+    "valid-url": "^1.0.9"
   }
 }
