@@ -1,12 +1,12 @@
 # Define runtime and linux version
-FROM node:11-alpine
+FROM node:8
 
 # Set working directory
 WORKDIR /var/app/hacker-news-scraper
 
 # Copy source files
 COPY package.json .
-COPY index.js ./
+COPY scraper.js ./
 
 # Install dependencies
 RUN npm install
