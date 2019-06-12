@@ -28,9 +28,9 @@ const scrapePage = async (url, limit) => {
     .find(`.athing:lt(${limit})`)
     // parse relevant fields
     .set({
-        title: 'a.storylink',
-        uri: 'a.storylink@href',
-        rank: '.rank',
+        title: "a.storylink",
+        uri: "a.storylink@href",
+        rank: ".rank",
     })
     .data(item => {
         // add to firstRow array
@@ -45,7 +45,6 @@ const scrapePage = async (url, limit) => {
     .set({
         author: "a.hnuser",
         points: ".score",
-        user: ".hnuser",
         comments: "a:last"
         })
     .data(item => secondRow.push(item));
