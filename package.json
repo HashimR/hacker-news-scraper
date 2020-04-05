@@ -19,7 +19,7 @@
   "homepage": "https://github.com/HashimR/hacker-news-scraper#readme",
   "dependencies": {
     "jest": "^24.8.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "osmosis": "^1.1.10",
     "valid-url": "^1.0.9"
   }
